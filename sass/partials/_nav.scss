@@ -1,0 +1,86 @@
+nav {
+  background-color: $primary;
+}
+
+.navbar-brand {
+  font-family: "open sans", sans-serif;
+  font-size: 2vw;
+  color: #6a6a6a !important;
+  margin-left: 3vw;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 70vw;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 1vw;
+  font-family: "Archivo Narrow";
+}
+
+.active > .nav-link {
+  color: $pink;
+}
+
+.nav-link {
+  color: $grey;
+  margin-right: 3vw;
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .navbar-brand {
+    font-size: 3vw;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .fa-bars {
+    color: black;
+    font-size: 5vw;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ .navbar-nav {
+    display: block;
+    position: relative;
+    left: -80vw;
+    margin-top: 10vw;
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-size: 4vw;
+  }
+
+  .fa-bars {
+    color: black;
+    font-size: 6vw;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ .navbar-nav {
+    left: -73vw;
+    margin-top: 20vw;
+    font-size: 5vw;
+  }
+}
