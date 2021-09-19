@@ -72,3 +72,9 @@
   margin-left: 2vw;
   font-size: 1vw;
 }
+
+@media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+}

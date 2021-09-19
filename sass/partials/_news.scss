@@ -83,3 +83,9 @@
   width: 87%;
   margin: 0 auto;
 }
+
+@media (max-width: 600px) {
+  .card {
+    margin-bottom: 15vw;
+  }
+}

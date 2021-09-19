@@ -85,3 +85,19 @@ nav {
 //     display: block;
 //   }
 // }
+
+@media (max-width: 800px) {
+  .navbar-brand {
+    font-size: 3vw;
+  }
+
+  .navbar {
+    font-size: 3vw;
+    font-family: "Lato";
+    line-height: 7vw;
+  }
+
+  .my-lg-0 input {
+    padding: 3vw 60vw 3vw 3vw;
+  }
+}

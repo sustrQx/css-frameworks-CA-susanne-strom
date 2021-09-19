@@ -9311,11 +9311,23 @@ footer {
 @media (max-width: 600px) {
   footer {
     font-size: 4vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    line-height: 20vw;
   }
   .row {
     row-gap: 10vw;
     -webkit-column-gap: 10vw;
             column-gap: 10vw;
+  }
+  .fa-vimeo-v,
+  .fa-youtube {
+    font-size: 8vw;
+    padding-right: 3vw;
+    line-height: 7vw;
   }
 }
 
@@ -9384,6 +9396,20 @@ nav {
 
 .navbar-collapse {
   z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .navbar-brand {
+    font-size: 3vw;
+  }
+  .navbar {
+    font-size: 3vw;
+    font-family: "Lato";
+    line-height: 7vw;
+  }
+  .my-lg-0 input {
+    padding: 3vw 60vw 3vw 3vw;
+  }
 }
 
 .carousel-indicators li {
@@ -9546,6 +9572,12 @@ nav {
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  .card {
+    margin-bottom: 15vw;
+  }
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9627,5 +9659,14 @@ nav {
   color: #767676;
   margin-left: 2vw;
   font-size: 1vw;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -73,10 +73,20 @@ footer {
 @media (max-width: 600px) {
   footer {
     font-size: 4vw;
+    flex-direction: column;
+    text-align: center;
+    line-height: 20vw;
   }
 
   .row {
     row-gap: 10vw;
     column-gap: 10vw;
+  }
+
+  .fa-vimeo-v,
+  .fa-youtube {
+    font-size: 8vw;
+    padding-right: 3vw;
+    line-height: 7vw;
   }
 }
