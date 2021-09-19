@@ -5,7 +5,7 @@ body {
 
 body {
   font-family: "Archivo Narrow", sans-serif;
-  background-color: $background-colour;
+  background: radial-gradient(#ffffff, #e5e5e5);
   color: white;
   display: flex;
   flex-direction: column;
@@ -15,54 +15,60 @@ footer {
   display: flex;
   flex-shrink: 0;
   justify-content: space-between;
-  background-color: $primary;
-  margin-top: 5vw;
+  background-color: white;
+  margin-top: 20vw;
   font-size: 1vw;
-  color: $grey;
-  padding: 3vw 3vw 3vw 3vw;
+  color: $dark-grey;
+  padding: 3vw 3vw 1vw 3vw;
+}
+
+.fa-vimeo-v,
+.fa-youtube {
+  font-size: 3vw;
+  padding-right: 3vw;
 }
 
 .wrapper {
   flex: 1 0 auto;
 }
 
-.card {
-  padding-bottom: 15vw;
-  border-radius: 10%;
-  background-color: $primary;
-}
+// .card {
+//   padding-bottom: 15vw;
+//   border-radius: 10%;
+//   background-color: $primary;
+// }
 
-.card:nth-child(3),
-.card:nth-child(8) {
-  background-color: white;
-  border: 0.2vw $pink solid;
-}
+// .card:nth-child(3),
+// .card:nth-child(8) {
+//   background-color: white;
+//   border: 0.2vw $pink solid;
+// }
 
-.card:nth-child(6) {
-  background-color: $pink;
-  border: 0.2vw white solid;
-}
+// .card:nth-child(6) {
+//   background-color: $pink;
+//   border: 0.2vw white solid;
+// }
 
-.row {
-  row-gap: 2vw;
-  column-gap: 2vw;
-}
+// .row {
+//   row-gap: 2vw;
+//   column-gap: 2vw;
+// }
 
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
+// .container {
+//   width: 70%;
+//   margin: 0 auto;
+// }
 
-@media (max-width: 800px) {
-  footer {
-    font-size: 3vw;
-  }
+// @media (max-width: 800px) {
+//   footer {
+//     font-size: 3vw;
+//   }
 
-  .row {
-    row-gap: 3vw;
-    column-gap: 3vw;
-  }
-}
+//   .row {
+//     row-gap: 3vw;
+//     column-gap: 3vw;
+//   }
+// }
 
 @media (max-width: 600px) {
   footer {

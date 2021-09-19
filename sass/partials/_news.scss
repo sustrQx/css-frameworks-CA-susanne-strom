@@ -1,0 +1,84 @@
+.page-link {
+  padding: 1vw;
+  background-color: white;
+  border: $pink 0.1vw solid;
+  border-radius: 10%;
+  color: $pink;
+  font-family: "lato";
+}
+
+.activetab {
+  background-color: $pink;
+  color: white;
+}
+
+.page-link:hover {
+  background-color: $pink;
+}
+
+.page-item {
+  display: inline;
+  margin: -2;
+}
+
+.pagination {
+  background-color: white;
+  list-style-type: none;
+  margin-bottom: 10vw;
+  margin-left: 0vw !important;
+}
+
+.pagination > li {
+  margin: -0.2vw;
+}
+
+//// news cards
+
+.container {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.row {
+  row-gap: 3vw;
+  column-gap: 3vw;
+}
+
+.card {
+  font-family: "lato";
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 0vw 0vw 5vw 0vw;
+  border-radius: 5%;
+}
+.card > img {
+  border-radius: 5%;
+}
+
+.cardtext > .btn-primary {
+  text-transform: uppercase;
+  width: 100%;
+  background: linear-gradient(to right, $pink 87%, $dark-grey 50%);
+}
+
+.card h2 {
+  color: $black;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.card p {
+  color: $dark-grey;
+  margin-bottom: 2vw;
+}
+
+.cardtext {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.fronttext {
+  width: 90%;
+  margin: 0 auto;
+}

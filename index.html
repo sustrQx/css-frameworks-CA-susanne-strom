@@ -1,46 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b26841a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/style.css" rel="stylesheet" />
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand navlink" href="#">The YAY company</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Go
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <main>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner embed-responsive embed-responsive-21by9">
+            <div
+              class="carousel-item active embed-responsive-item"
+              style="background-image: url(img/Carousel/carousel-1.jpg)"
+            ></div>
+            <div
+              class="carousel-item embed-responsive-item"
+              style="background-image: url(img/Carousel/carousel-2.jpg)"
+            ></div>
+            <div
+              class="carousel-item embed-responsive-item"
+              style="background-image: url(img/Carousel/carousel-3.jpg)"
+            ></div>
+          </div>
+        </div>
+
+        <div class="front-items">
+          <div class="front-text">
+            <h1>We do YAY things</h1>
+            <p>
+              Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper
+              mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris
+              eleifend finibus et ac orci. Aliquam metus massa, aliquam quis
+              arcu sit amet, consectetur faucibus urna. Suspendisse massa diam,
+              efficitur eu massa euismod, pretium lacinia magna. Donec mi orci,
+              sollicitudin in luctus a, varius eget massa.
+            </p>
+          </div>
+
+
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item active"><a href="#b" data-toggle="tab" class="nav-link active>">First</a></li>
+      <li class="nav-item"><a href="#c" data-toggle="tab" class="nav-link active>">Second</a></li>
+      <li class="nav-item"><a href="#d" data-toggle="tab" class="nav-link active>">Third</a></li>
+   </ul>
+   
+   <div class="tab-content" id="myTabContent">
+      <div class="tab-pane active" id="b">
+        <div class="img">
+          <img src="img/Tab images/tab-1.jpg">
+        </div>
+        <div class="text">
+          <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+          <div class="sharetext">
+            <p>Share</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
       </div>
-    </nav>
+      <div class="tab-pane" id="c">
+        <div class="img">
+          <img src="img/Tab images/tab-2.jpg">
+        </div>
+        <div class="text">
+          <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+          <div class="sharetext">
+            <p>Share</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="d">
 
-    <div class="djdjd">
-        
+        <div class="img">
+          <img src="img/Tab images/tab-3.jpg">
+        </div>
+        <div class="text">
+          <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+          <div class="sharetext">
+            <p>Share</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+
+    <footer>
+      <div class="footer-item">
+        <i class="fab fa-vimeo-v"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="footer-item">
+        <p>hello@yay.com</p>
+      </div>
+      <div class="footer-item">
+        <p>Copyright 2020</p>
+      </div>
+    </footer>
+
     </div>
-    
-</body>
+
+
+  
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>

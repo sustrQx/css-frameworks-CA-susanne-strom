@@ -1,3 +1,74 @@
-.djdjd {
-    padding: 40vw;
+.carousel-indicators li {
+  border-radius: 30%;
+  padding: 1vw 0vw 1vw 0vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+//// tabs
+.active-tab {
+  background-color: black;
+}
+
+.nav-tabs .nav-link {
+  color: $pink !important;
+}
+
+.tab-content {
+  padding: 6vw 6vw 0vw 6vw;
+  border-radius: 1%;
+  background-color: white;
+}
+
+.tab-pane {
+  display: inline;
+}
+
+.text {
+  width: 50%;
+  position: relative;
+  left: 35vw;
+  bottom: 20vw;
+}
+
+.img {
+  width: 50%;
+}
+
+.sharetext {
+  text-transform: uppercase;
+  display: inline;
+  color: $black;
+  vertical-align: middle;
+}
+
+.sharetext > .fab {
+  display: inline-block;
+  font-size: 2vw;
+  margin-right: 2vw;
+  margin-left: 3vw;
+}
+
+.sharetext > .fa,
+.sharetext > p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/////
+.front-items {
+  width: 85%;
+  margin: 0 auto;
+  color: $dark-grey;
+  font-family: "lato";
+}
+
+.front-text {
+  margin-bottom: 10vw;
+}
+
+.front-text h1 {
+  color: $pink;
+  font-family: "playfair display";
+  text-align: left;
 }
