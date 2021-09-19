@@ -22,7 +22,6 @@
 }
 
 .pagination {
-  background-color: white;
   list-style-type: none;
   margin-bottom: 10vw;
   margin-left: 0vw !important;
@@ -30,12 +29,14 @@
 
 .pagination > li {
   margin: -0.2vw;
+  position: relative;
+  right: 3vw;
 }
 
 //// news cards
 
 .container {
-  width: 97%;
+  width: 99%;
   margin: 0 auto;
 }
 
@@ -79,6 +80,6 @@
 }
 
 .fronttext {
-  width: 90%;
+  width: 87%;
   margin: 0 auto;
 }

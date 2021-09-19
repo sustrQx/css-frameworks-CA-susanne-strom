@@ -1,0 +1,74 @@
+/// contacttext
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.contact > form {
+  flex: 2;
+  width: 70%;
+  background-color: $medium-grey;
+  padding: 3vw;
+}
+
+.contacttext {
+  flex: 1;
+  margin-left: 10vw;
+  line-height: 3vw;
+}
+
+.contactitem {
+  margin-bottom: 2vw;
+}
+
+.fas > p {
+  font-family: verdana;
+  color: $dark-grey;
+  display: inline;
+  margin-left: 2vw;
+  font-weight: 100;
+  font-size: 1vw;
+}
+
+.fas {
+  display: inline;
+  color: $dark-grey;
+  font-size: 2vw;
+}
+
+.vertical {
+  display: block;
+}
+
+.fa-map-marker-alt > p {
+  display: block;
+}
+
+.btn-primary {
+  width: 100% !important;
+  background-color: $dark-grey;
+  border: none;
+  padding: 1vw;
+}
+
+.contact input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-color: $pink;
+  border: none;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.form-check-label {
+  color: $dark-grey;
+  margin-left: 2vw;
+  font-size: 1vw;
+}
